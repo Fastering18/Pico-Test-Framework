@@ -1,1 +1,1 @@
-web: python -m pico.server server
+web: gunicorn app:server
