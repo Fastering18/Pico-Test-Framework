@@ -15,3 +15,6 @@ def goodbye(who):
 
 app = PicoApp()
 app.register_module(__name__)
+
+if __name__ == "__main__":
+  app.run()
